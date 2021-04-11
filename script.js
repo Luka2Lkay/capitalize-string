@@ -3,7 +3,6 @@
 const btn = document.getElementById('submit-btn');
 const capitalizedText = document.getElementById('capitalized');
 const myForm = document.getElementById("my-form");
-const resetBtn = document.getElementById("reset-btn");
 
 const capitalize = (word) =>{
     const firstLetter = word[0].toUpperCase();
