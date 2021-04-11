@@ -13,7 +13,7 @@ const capitalize = (word) =>{
 }
 
 myForm.addEventListener('submit', e =>{
-    e.preventDefault()
+    e.target.preventDefault()
     appendText();  
     myForm.reset();
 })
