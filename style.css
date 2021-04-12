@@ -4,8 +4,14 @@ body{
     box-sizing: border-box;
     background-color: black;
 }
+
 h1{
     text-align: center;
+    color: silver;
+}
+
+h3{
+    color: gold;
 }
 
 #my-form{
@@ -17,19 +23,15 @@ h1{
     font-size: 40px;
 }
 
-    #word{
-        font-size: 50px;
-    }
+#word{
+    font-size: 50px;
+}
 
-    #submit-btn{
-        font-size: 300%;
-    }   
+#submit-btn{
+    font-size: 300%;
+}   
 
-    h3{
-        color: gold;
-    }
-
-    p{
-        color: silver;
-        text-align: right;
-    }
+p{
+    color: silver;
+    text-align: right;
+}

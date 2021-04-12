@@ -23,5 +23,4 @@ const word = document.getElementById('word').value;
 const text = document.createElement('h3');
 text.textContent = capitalize(word);
 capitalizedText.appendChild(text)
-
 }
