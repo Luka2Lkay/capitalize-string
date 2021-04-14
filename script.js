@@ -14,6 +14,7 @@ const capitalize = (word) =>{
 
 myForm.addEventListener('submit', e =>{
     e.preventDefault()
+    capitalizedText.textContent = '';
     appendText();  
     myForm.reset();
 })
